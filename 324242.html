@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denkur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .telegram-link, .github-link, .youtube-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease-out;
+        }
+        .telegram-link:hover, .github-link:hover, .youtube-link:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1); /* увеличение размера при наведении */
+        }
+        /* Добавленный стиль для анимированного изменения цвета текста */
+        .contact-link a {
+            color: white;
+            transition: color 0.3s ease;
+        }
+        .contact-link a:hover {
+            color: lightblue; /* Изменение цвета текста при наведении */
+        }
+    </style>
+</head>
+<body>
+    <h1>Denkur</h1>
+    <p>Меня зовут Denkur и я люблю делать разные проекты.</p>
+    <div class="links">
+        <a href="https://t.me/denkurchannel" class="telegram-link">Перейти в Telegram канал</a>
+        <a href="https://github.com/Denkur1337" class="github-link">Мой GitHub профиль</a>
+        <a href="https://www.youtube.com/channel/UCOVMSDLCGs3nMlJ3CkkwPkA" class="youtube-link">Мой YouTube канал</a>
+    </div>
+    
+</body>
+</html>
